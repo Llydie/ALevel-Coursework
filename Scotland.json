@@ -1,0 +1,79 @@
+{"Map" : 
+	[{"Vertices": 8},
+	{"Name":"Edinburgh","Distance":0,"Edges":[
+		{"Number":4},
+		{"Node":"Glasgow","Weight":1},
+		{"Node":"Aberdeen","Weight":6},
+		{"Node":"Fort William","Weight":6},
+		{"Node":"Inverness","Weight":7}],
+	"Neighbours":[
+		{"Place":"Glasgow"},
+		{"Place":"Aberdeen"},
+		{"Place":"Fort William"},
+		{"Place":"Inverness"}]
+	},
+	{"Name":"Glasgow","Distance":0,"Edges":[
+		{"Number":3},
+		{"Node":"Edinburgh","Weight":1},
+		{"Node":"Fort William","Weight":4},
+		{"Node":"Inverness","Weight":8}],
+	"Neighbours":[
+		{"Place":"Edinburgh"},
+		{"Place":"Fort William"},
+		{"Place":"Inverness"}]
+	},
+	{"Name":"Fort William","Distance":0,"Edges":[
+		{"Number":3},
+		{"Node":"Edinburgh","Weight":6},
+		{"Node":"Glasgow","Weight":4},
+		{"Node":"Mallaig","Weight":1}],
+	"Neighbours":[
+		{"Place":"Edinburgh"},
+		{"Place":"Glasgow"},
+		{"Place":"Mallaig"}]
+	},
+	{"Name":"Mallaig","Distance":0,"Edges":[
+		{"Number":1},
+		{"Node":"Fort William","Weight":1}],
+	"Neighbours":[
+		{"Place":"Fort William"}]
+	},
+	{"Name":"Aberdeen","Distance":0,"Edges":[
+		{"Number":3},
+		{"Node":"Edinburgh","Weight":6},
+		{"Node":"Thurso","Weight":8},
+		{"Node":"Inverness","Weight":3}],
+	"Neighbours":[
+		{"Place":"Edinburgh"},
+		{"Place":"Thurso"},
+		{"Place":"Inverness"}]
+	},
+	{"Name":"Inverness","Distance":0,"Edges":[
+		{"Number":5},
+		{"Node":"Glasgow","Weight":8},
+		{"Node":"Aberdeen","Weight":3},
+		{"Node":"Edinburgh","Weight":7},
+		{"Node":"Thurso","Weight":5},
+		{"Node":"Stornoway","Weight":4}],
+	"Neighbours":[
+		{"Place":"Glasgow"},
+		{"Place":"Aberdeen"},
+		{"Place":"Edinburgh"},
+		{"Place":"Thurso"},
+		{"Place":"Stornoway"}]
+	},
+	{"Name":"Thurso","Distance":0,"Edges":[
+		{"Number":2},
+		{"Node":"Aberdeen","Weight":8},
+		{"Node":"Inverness","Weight":5}],
+	"Neighbours":[
+		{"Place":"Aberdeen"},
+		{"Place":"Inverness"}]
+	},
+	{"Name":"Stornoway","Distance":0,"Edges":[
+		{"Number":1},
+		{"Node":"Inverness","Weight":4}],
+	"Neighbours":[
+		{"Place":"Inverness"}]
+	}]
+}

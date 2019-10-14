@@ -1,0 +1,107 @@
+{"Map" : 
+	[{"Vertices": 9},
+	{"Name":"Paddington","Distance":0,"Edges":[
+		{"Number":5},
+		{"Node":"Earl's Court","Weight":4},
+		{"Node":"Liverpool Street","Weight":9},
+		{"Node":"Baker Street","Weight":3},
+		{"Node":"Piccadilly Circus","Weight":6},
+		{"Node":"Waterloo","Weight":9}],
+	"Neighbours":[
+		{"Place":"Earl's Court"},
+		{"Place":"Liverpool Street"},
+		{"Place":"Baker Street"},
+		{"Place":"Piccadilly Circus"},
+		{"Place":"Waterloo"}]
+	},
+	{"Name":"Bank","Distance":0,"Edges":[
+		{"Number":3},
+		{"Node":"Liverpool Street","Weight":1},
+		{"Node":"London Bridge","Weight":1},
+		{"Node":"Waterloo","Weight":3}],
+	"Neighbours":[
+		{"Place":"Liverpool Street"},
+		{"Place":"London Bridge"},
+		{"Place":"Waterloo"}]
+	},
+	{"Name":"Earl's Court","Distance":0,"Edges":[
+		{"Number":3},
+		{"Node":"Paddington","Weight":4},
+		{"Node":"Leicester Square","Weight":7},
+		{"Node":"Piccadilly Circus","Weight":6}],
+	"Neighbours":[
+		{"Place":"Paddington"},
+		{"Place":"Leicester Square"},
+		{"Place":"Piccadilly Circus"}]
+	},
+	{"Name":"Waterloo","Distance":0,"Edges":[
+		{"Number":6},
+		{"Node":"Paddington","Weight":9},
+		{"Node":"Bank","Weight":3},
+		{"Node":"London Bridge","Weight":2},
+		{"Node":"Piccadilly Circus","Weight":3},
+		{"Node":"Baker Street","Weight":6},
+		{"Node":"Leicester Square","Weight":3}],
+	"Neighbours":[
+		{"Place":"Paddington"},
+		{"Place":"Bank"},
+		{"Place":"London Bridge"},
+		{"Place":"Piccadilly Circus"},
+		{"Place":"Baker Street"},
+		{"Place":"Leicester Square"}]
+	},
+	{"Name":"Piccadilly Circus","Distance":0,"Edges":[
+		{"Number":5},
+		{"Node":"Paddington","Weight":6},
+		{"Node":"Waterloo","Weight":3},
+		{"Node":"Earl's Court","Weight":6},
+		{"Node":"Leicester Square","Weight":1},
+		{"Node":"Baker Street","Weight":3}],
+	"Neighbours":[
+		{"Place":"Paddington"},
+		{"Place":"Waterloo"},
+		{"Place":"Earl's Court"},
+		{"Place":"Leicester Square"},
+		{"Place":"Baker Street"}]
+	},
+	{"Name":"Leicester Square","Distance":0,"Edges":[
+		{"Number":3},
+		{"Node":"Earl's Court","Weight":7},
+		{"Node":"Piccadilly Circus","Weight":1},
+		{"Node":"Waterloo","Weight":3}],
+	"Neighbours":[
+		{"Place":"Earl's Court"},
+		{"Place":"Piccadilly Circus"},
+		{"Place":"Waterloo"}]
+	},
+	{"Name":"Baker Street","Distance":0,"Edges":[
+		{"Number":4},
+		{"Node":"Paddington","Weight":3},
+		{"Node":"Waterloo","Weight":6},
+		{"Node":"Piccadilly Circus","Weight":3},
+		{"Node":"Liverpool Street","Weight":7}],
+	"Neighbours":[
+		{"Place":"Paddington"},
+		{"Place":"Waterloo"},
+		{"Place":"Piccadilly Circus"},
+		{"Place":"Liverpool Street"}]
+	},
+	{"Name":"Liverpool Street","Distance":0,"Edges":[
+		{"Number":3},
+		{"Node":"Paddington","Weight":9},
+		{"Node":"Bank","Weight":1},
+		{"Node":"Baker Street","Weight":7}],
+	"Neighbours":[
+		{"Place":"Paddington"},
+		{"Place":"Bank"},
+		{"Place":"Baker Street"}]
+	},
+	{"Name":"London Bridge","Distance":0,"Edges":[
+		{"Number":2},
+		{"Node":"Bank","Weight":1},
+		{"Node":"Waterloo","Weight":3}],
+	"Neighbours":[
+		{"Place":"Bank"},
+		{"Place":"Waterloo"}]
+	}]
+}

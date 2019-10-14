@@ -1,0 +1,35 @@
+{"Map" : 
+	[{"Vertices": 4},
+	{"Name":"London","Distance":0,"Edges":[
+		{"Number":3},
+		{"Node":"Cambridge","Weight":1},
+		{"Node":"Oxford","Weight":2},
+		{"Node":"Birmingham","Weight":5}],
+	"Neighbours":[
+		{"Place":"Cambridge"},
+		{"Place":"Oxford"},
+		{"Place":"Birmingham"}]
+	},
+	{"Name":"Cambridge","Distance":6,"Edges":[
+		{"Number":1},
+		{"Node":"London","Weight":1}],
+	"Neighbours":[
+		{"Place":"London"}]
+	},
+	{"Name":"Oxford","Distance":9,"Edges":[
+		{"Number":2},
+		{"Node":"London","Weight":2},
+		{"Node":"Birmingham","Weight":4}],
+	"Neighbours":[
+		{"Place":"London"},
+		{"Place":"Birmingham"}]
+	},
+	{"Name":"Birmingham","Distance":3,"Edges":[
+		{"Number":2},
+		{"Node":"Oxford","Weight":4},
+		{"Node":"London","Weight":5}],
+	"Neighbours":[
+		{"Place":"Oxford"},
+		{"Place":"London"}]
+	}]
+}
